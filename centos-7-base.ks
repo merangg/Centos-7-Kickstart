@@ -6,7 +6,7 @@ timezone --utc UTC
 selinux --disabled
 reboot
 
-ignoredisk --only-use=Centos_0
+ignoredisk --only-use=Centos_0_0
 zerombr
 clearpart --all
 reqpart --add-boot
